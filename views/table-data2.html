@@ -9,11 +9,9 @@
     </thead>
     <tbody>
 
-     <tr ng-repeat="laptop in laptops">
-          <td>{{ laptop.id }}</td>
-           <td>{{ laptop.model }}</td>
-         <td><a href="#/laptops/{{laptop.id}}"><img src="{{laptop.images[1]}}"></a></td>
-
+        <tr ng-repeat="scotch in scotches">
+            <td>{{ scotch.name }}</td>
+            <td>${{ scotch.price }}</td>
         </tr>
 
     </tbody>
